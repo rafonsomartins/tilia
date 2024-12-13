@@ -1,3 +1,4 @@
+README.md
 setup.py
 tilia.egg-info/PKG-INFO
 tilia.egg-info/SOURCES.txt

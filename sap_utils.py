@@ -3,6 +3,13 @@ import time
 from .pyautogui_utils import exit_if_not_window, enter_value, wait_for_window, press_key
 
 class SAPAutomation:
+	"""
+    A class to encapsulate SAP GUI automation tasks.
+
+    Methods:
+        navigate_to_transaction(transaction): Navigates to a specific SAP transaction.
+        enter_data(field_data): Enters data into specified fields in SAP.
+    """
 	def __init__(self, username, password):
 		self.username = username
 		self.password = password

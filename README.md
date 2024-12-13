@@ -1,17 +1,3 @@
-Metadata-Version: 2.1
-Name: tilia
-Version: 1.0.4
-Summary: One more layer for pyautogui. Utilities for SAP integration.
-Author: ralves-e
-Author-email: martins.ruiafonso@gmail.com
-Project-URL: code, https://github.com/rafonsomartins/tilia
-Project-URL: Example of Usage, https://github.com/rafonsomartins/job_rar/tree/main/Automate%20SAP%20Assessment%20Cycle
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
-Description-Content-Type: text/markdown
-
 This library provides a set of utilities designed to automate repetitive human interactions on a computer. By leveraging the power of the `pyautogui` library, this package allows for easy automation of simple tasks such as mouse movements, clicks, keyboard presses, window focus checks, and clipboard operations. The library is especially helpful in scenarios where you need to automate SAP interactions or other desktop applications without manually repeating actions across different projects.
 
 ---
