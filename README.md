@@ -4,18 +4,18 @@ This library provides a set of utilities designed to automate repetitive human i
 
 ## What’s Included
 
-### pyautogui_utils Functions
+### `pyautogui_utils` Functions
 
-#### `mouse_click(x, y, absolute=False, wait=0)`
+`mouse_click(x, y, absolute=False, wait=0)`
 Simulate a mouse click at the specified coordinates.
 
-#### `press_key(key, times=1)`
+`press_key(key, times=1)`
 Simulate pressing a key multiple times.
 
-#### `enter_value(value, wait=0.2)`
+`enter_value(value, wait=0.2)`
 Type a value, wait a bit and press Enter.
 
-#### `wait_for_window(window_title, timeout=7, wait=0.5)`
+`wait_for_window(window_title, timeout=7, wait=0.5)`
 Wait for a window with a specific title to become active.
 
 **Example usage:**
@@ -24,16 +24,10 @@ press_key('winleft')
 wait_for_window("Search")
 ```
 
-**Example usage:**
-```python
-press_key('winleft')
-wait_for_window("Search")
-```
-
-#### `exit_if_not_window(value, timeout=7, wait=0.5)`
+`exit_if_not_window(value, timeout=7, wait=0.5)`
 Calls wait_for_window() and exits the program if it returns False.
 
-#### `relative_to_absolute(x_rel, y_rel)`
+`relative_to_absolute(x_rel, y_rel)`
 Convert relative screen coordinates to absolute coordinates based on screen size.
 
 **Example usage:**
@@ -42,12 +36,12 @@ relative_to_absolute(0.5, 0.5)
 # Output: (960, 540) -- for a screen resolution of 2560 x 1440
 ```
 
-#### `save_from_clipboard(rel_start_x, rel_start_y, rel_end_x, rel_end_y, sap_paste=False, absolute=False)`
+`save_from_clipboard(rel_start_x, rel_start_y, rel_end_x, rel_end_y, sap_paste=False, absolute=False)`
 Simulate selecting a portion of the screen and saving it to the clipboard.
 Per default works with relative coordinates.
 
-#### `force_clipboard_content(rel_start_x, rel_start_y, rel_end_x, rel_end_y, sap_paste=False, absolute=False, direction='Down', horizontal=False, ratio=0.008)`
-Force the content of the clipboard by repeatedly calling save_from_clipboard() with slightly different values.
+`force_clipboard_content(rel_start_x, rel_start_y, rel_end_x, rel_end_y, sap_paste=False, absolute=False, direction='Down', horizontal=False, ratio=0.008)`
+Force the clipboard content by repeatedly calling save_from_clipboard() with slightly varying coordinates.
 
 ### `SAPAutomation` Class (in `sap_utils.py`)
 
