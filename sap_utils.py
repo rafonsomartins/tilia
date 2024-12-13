@@ -1,6 +1,6 @@
 import pyautogui
 import time
-from utils.pyautogui_utils import exit_if_not_window, enter_value, wait_for_window, press_key
+from .pyautogui_utils import exit_if_not_window, enter_value, wait_for_window, press_key
 
 def close_sap():
 	pyautogui.hotkey("alt", "f4")
