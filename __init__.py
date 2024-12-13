@@ -6,10 +6,9 @@ from .pyautogui_utils import (
     press_key,
     enter_value,
     exit_if_not_window,
+	mouse_click,
 )
 
 from .sap_utils import (
-    open_sap,
-    close_sap,
-    go_to_main_page,
+    SAPAutomation
 )
