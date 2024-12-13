@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
 	name="tilia",
-	version="1.0.4",
+	version="1.0.5",
 	author="ralves-e",
 	author_email="martins.ruiafonso@gmail.com",
 	description="One more layer for pyautogui. Utilities for SAP integration.",

@@ -1,4 +1,4 @@
-This library provides a set of utilities designed to automate repetitive human interactions on a computer. By leveraging the power of the `pyautogui` library, this package allows for easy automation of simple tasks such as mouse movements, clicks, keyboard presses, window focus checks, and clipboard operations. The library is especially helpful in scenarios where you need to automate SAP interactions or other desktop applications without manually repeating actions across different projects.
+This library provides a set of utilities designed to automate repetitive human interactions on a computer. By leveraging the power of the `pyautogui` library, this package allows for easy automation of simple tasks such as mouse movements, clicks, keyboard presses, window focus checks, and clipboard operations.
 
 ---
 
@@ -13,7 +13,7 @@ from sap_utils import SAPAutomation
 sap = SAPAutomation()
 sap.login("username", "password")
 sap.select_item("item_name")
-sap.copy_data()
+sap.copy_data()```
 
 ## Installation
 
