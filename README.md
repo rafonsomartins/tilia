@@ -52,7 +52,7 @@ This class provides an interface for automating SAP tasks, allowing you to perfo
 from sap_utils import SAPAutomation
 
 sap = SAPAutomation("username", "password")
-sap.open_sap()
+sap.open_sap() # Opens SAP GUI Interface and logs with username and password
 ...
 sap.go_to_main_page()
 sap.close_sap()
@@ -63,16 +63,9 @@ sap.close_sap()
 To install the package, simply clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/automation-utils.git
-cd automation-utils
+git clone https://github.com/rafonsomartins/tilia
+cd tilia
 pip install -r requirements.txt
-
-## Requirements
-- Python 3.x
-- pyautogui
-- pygetwindow
-- pyperclip
-- Other dependencies listed in `requirements.txt`
 ```
 ---
 
